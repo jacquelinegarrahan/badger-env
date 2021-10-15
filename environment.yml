@@ -1,14 +1,14 @@
-name: badger-test-env
+name: badger-env
 channel_priority: strict
 channels:
   - conda-forge
   - defaults
 dependencies:
   - mkl
-  - scikit-learn ==0.24
-  - pyepics ==3.5
-  - tensorflow ==2.4
-#  - xopt ==0.5
+  - scikit-learn ==0.23.2
+  - pyepics ==3.5.0
+  - tensorflow ==2.6.0
+  - xopt ==0.5.0
   - python ==3.7.10
   - pip:
     - badger-opt==0.4
