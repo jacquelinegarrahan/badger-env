@@ -1,4 +1,5 @@
 name: badger-test-env
+channel_priority: strict
 channels:
   - conda-forge
   - defaults
