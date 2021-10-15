@@ -7,7 +7,7 @@ dependencies:
   - scikit-learn ==0.24
   - pyepics ==3.5
   - tensorflow ==2.4
-  - xopt ==0.5
+#  - xopt ==0.5
   - python ==3.7
   - pip:
     - badger-opt==0.4
