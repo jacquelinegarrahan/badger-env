@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     env:
-      ENVIRONMENT_NAME: badger-test-env
+      ENVIRONMENT_NAME: badger-env
     runs-on: ubuntu-latest
     name: Build environment
     steps:
