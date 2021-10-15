@@ -9,7 +9,7 @@ dependencies:
   - pyepics ==3.5
   - tensorflow ==2.4
 #  - xopt ==0.5
-  - python ==3.7
+  - python ==3.8
   - pip:
     - badger-opt==0.4
     - bayesian-optimization ==1.2
