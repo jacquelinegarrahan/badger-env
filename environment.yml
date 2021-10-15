@@ -7,7 +7,8 @@ dependencies:
   - pyepics ==3.5.0
   - tensorflow ==2.6.0
   - xopt ==0.5.0
-  - bayesian-optimization ==1.1.0
   - python ==3.7
+  - mkl
   - pip:
     - badger-opt==0.4
+    - bayesian-optimization ==1.2.0
