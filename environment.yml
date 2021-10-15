@@ -10,6 +10,7 @@ dependencies:
   - tensorflow ==2.6.0
   - xopt ==0.5.0
   - python ==3.7.10
+  - pip
   - pip:
     - badger-opt==0.4
     - bayesian-optimization ==1.2
