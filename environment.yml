@@ -10,5 +10,5 @@ dependencies:
   - python ==3.7.10
   - pip
   - pip:
-    - badger-opt==0.4
+    - badger-opt==0.4.5
     - bayesian-optimization ==1.2
