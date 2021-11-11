@@ -1,2 +1,2 @@
-#!/bin/sh
-echo "No tests"
+#!/bin/bash
+python -c 'import badger"

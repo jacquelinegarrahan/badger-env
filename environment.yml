@@ -1,8 +1,6 @@
 name: badger-env
-channel_priority: strict
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - mkl
   - scikit-learn ==0.23.2
