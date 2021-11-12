@@ -1,2 +1,2 @@
 #!/bin/bash
-python -c 'import badger"
+python -c 'import badger'
