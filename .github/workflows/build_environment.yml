@@ -12,24 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     name: Build environment
     steps:
-      - name: Checkout project
-        uses: actions/checkout@v2
-      - name: Build docker
-        uses: docker-practice/actions-setup-docker@master
-      - name: Pack environment
-        run: |
-          set -x
-          docker run -v $(pwd)/environment.yml:/tmp/environment.yml \
-          -v $(pwd):/tmp/project \
-          -v $(pwd)/${{ env.TEST_FILE }}:/tmp/run-test.sh \
-          -e ENVIRONMENT_NAME=${{ env.ENVIRONMENT_NAME }} --name build-env  -t jgarrahan/lcls-rhel6-conda-docker:v1.0 /tmp/environment.yml
-          echo $?
-          echo "Exited with '$?'"
-        shell: bash
-      - name: Copy environment
-        run: |
-          echo $?
-          echo "Exited with '$?'"
-          set -x 
-          docker cp build-env:/root/${{ env.ENVIRONMENT_NAME }}.tar.gz .
-        shell: bash
+      - name: Build environment
+        uses: slaclab/lcls-rhel6-conda-pack@v1.1
