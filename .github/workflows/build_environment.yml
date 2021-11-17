@@ -9,6 +9,7 @@ jobs:
   build:
     env:
       ENVIRONMENT_NAME: badger-env
+      TEST_FILE: run-test.sh
     runs-on: ubuntu-latest
     name: Build environment
     steps:
