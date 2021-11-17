@@ -2,13 +2,11 @@ name: badger-env
 channels:
   - conda-forge
 dependencies:
-  - mkl
-  - scikit-learn ==0.23.2
-  - pyepics ==3.5.0
-  - tensorflow ==2.6.0
-  - xopt ==0.5.0
-  - python ==3.7.10
-  - pip
-  - pip:
-    - badger-opt==0.4.5
-    - bayesian-optimization ==1.2
+  - python=3.7
+  - scikit-learn=0.23.2
+  - xopt
+  - bayesian-optimization
+  - pyepics
+  - badger-opt
+  - pytest
+  - pytest-qt

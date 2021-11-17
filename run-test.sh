@@ -1,3 +1,5 @@
 #!/bin/bash
 set -e
-python -c 'import badger'
+
+export QT_QPA_PLATFORM=offscreen
+pytest --pyargs badger
