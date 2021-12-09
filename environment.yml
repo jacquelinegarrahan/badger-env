@@ -7,6 +7,6 @@ dependencies:
   - xopt
   - bayesian-optimization
   - pyepics
-  - badger-opt
+  - badger-opt=0.6.0
   - pytest
   - pytest-qt
