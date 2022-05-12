@@ -8,6 +8,6 @@ dependencies:
   - bayesian-optimization
   - pyepics
   - qt=5.12.5
-  - badger-opt=0.7.0
+  - badger-opt=0.7.3
   - pytest
   - pytest-qt
